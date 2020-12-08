@@ -1,0 +1,22 @@
+{
+    "name": "@markusantonwolf/tailwindcss-filters",
+    "version": "1.0.0",
+    "description": "A Tailwind CSS plugin for usefull css filter utilities.",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "node ./scripts/build.js"
+    },
+    "author": "Markus A. Wolf",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/markusantonwolf/tailwindcss-filters.git"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "autoprefixer": "^9.6.1",
+        "clean-css": "^4.2.1",
+        "lodash": "^4.17.20",
+        "tailwindcss": "^1.8.3"
+    }
+}
