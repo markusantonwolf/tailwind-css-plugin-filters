@@ -73,6 +73,8 @@ module.exports = {
 }
 ```
 
+**You can find a list of all generated utilities in the [List of all utilities](https://github.com/markusantonwolf/tailwindcss-filters/blob/master/public/utilities.css).**
+
 ## Licence
 
 Tailwind CSS Plugin Filter utilities is released under the [MIT license](https://github.com/markusantonwolf/tailwindcss-filters/blob/master/licence.md) & supports modern environments.

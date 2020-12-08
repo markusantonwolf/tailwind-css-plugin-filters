@@ -1,6 +1,8 @@
+const fs = require("fs");
 const plugin = require("tailwindcss/plugin");
 const _ = require("lodash");
 const { colors } = require("tailwindcss/defaultTheme");
+const { paramCase } = require("change-case");
 
 const blurs = [
     {
@@ -56,6 +58,7 @@ const defaultOptions = {
     variants: ["responsive"],
     utilities: ["drop-shadow", "blur", "backdrop-blur"],
     debug: false,
+    export: false,
 };
 
 module.exports = plugin.withOptions((options = {}) => {
@@ -79,6 +82,17 @@ module.exports = plugin.withOptions((options = {}) => {
 
         if (options.debug === true) {
             console.info(new_utilities);
+        }
+        if (options.export === true) {
+            fs.writeFile(
+                "./public/utilities.css",
+                flattenObject(new_utilities),
+                function (err) {
+                    if (err) {
+                        return console.log(err);
+                    }
+                }
+            );
         }
 
         addUtilities(new_utilities, {
@@ -133,4 +147,24 @@ function getBlur() {
         };
     });
     return new_utilities;
+}
+
+function flattenObject(ob) {
+    var toReturn = "";
+    for (var a in ob) {
+        toReturn += a + " ";
+        if (typeof ob[a] == "object" && ob[a] !== null) {
+            toReturn += "{" + "\n";
+            for (var b in ob[a]) {
+                if (b.substring(0,2) === '--') {
+                    toReturn += "\t" + b + ": " + ob[a][b] + ";\n";
+                } else {
+                    toReturn += "\t" + paramCase(b) + ": " + ob[a][b] + ";\n";
+                }
+            }
+            toReturn += "}" + "\n";
+        }
+        toReturn += "\n";
+    }
+    return toReturn;
 }

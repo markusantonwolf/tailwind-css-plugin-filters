@@ -12,6 +12,7 @@ function buildDistFile() {
                         variants: ["responsive"],
                         utilities: ["drop-shadow", "blur", "backdrop-blur"],
                         debug: true,
+                        export: true,
                     }),
                 ],
             }),

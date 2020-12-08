@@ -1,0 +1,452 @@
+.filter-0 {
+	filter: none;
+}
+
+.drop-shadow {
+	filter: drop-shadow(var(--tw-filter-size, 0px 0px 2px) var(--tw-filter-color, #000000));
+}
+
+.drop-shadow-sm {
+	--tw-filter-size: 0px 0px 2px;
+}
+
+.drop-shadow-md {
+	--tw-filter-size: 0px 0px 4px;
+}
+
+.drop-shadow-lg {
+	--tw-filter-size: 0px 0px 8px;
+}
+
+.drop-shadow-xl {
+	--tw-filter-size: 0px 0px 16px;
+}
+
+.drop-shadow-2xl {
+	--tw-filter-size: 0px 0px 32px;
+}
+
+.drop-shadow-transparent {
+	--tw-filter-color: transparent;
+}
+
+.drop-shadow-current {
+	--tw-filter-color: currentColor;
+}
+
+.drop-shadow-black {
+	--tw-filter-color: #000;
+}
+
+.drop-shadow-white {
+	--tw-filter-color: #fff;
+}
+
+.drop-shadow-gray-100 {
+	--tw-filter-color: #f7fafc;
+}
+
+.drop-shadow-gray-200 {
+	--tw-filter-color: #edf2f7;
+}
+
+.drop-shadow-gray-300 {
+	--tw-filter-color: #e2e8f0;
+}
+
+.drop-shadow-gray-400 {
+	--tw-filter-color: #cbd5e0;
+}
+
+.drop-shadow-gray-500 {
+	--tw-filter-color: #a0aec0;
+}
+
+.drop-shadow-gray-600 {
+	--tw-filter-color: #718096;
+}
+
+.drop-shadow-gray-700 {
+	--tw-filter-color: #4a5568;
+}
+
+.drop-shadow-gray-800 {
+	--tw-filter-color: #2d3748;
+}
+
+.drop-shadow-gray-900 {
+	--tw-filter-color: #1a202c;
+}
+
+.drop-shadow-red-100 {
+	--tw-filter-color: #fff5f5;
+}
+
+.drop-shadow-red-200 {
+	--tw-filter-color: #fed7d7;
+}
+
+.drop-shadow-red-300 {
+	--tw-filter-color: #feb2b2;
+}
+
+.drop-shadow-red-400 {
+	--tw-filter-color: #fc8181;
+}
+
+.drop-shadow-red-500 {
+	--tw-filter-color: #f56565;
+}
+
+.drop-shadow-red-600 {
+	--tw-filter-color: #e53e3e;
+}
+
+.drop-shadow-red-700 {
+	--tw-filter-color: #c53030;
+}
+
+.drop-shadow-red-800 {
+	--tw-filter-color: #9b2c2c;
+}
+
+.drop-shadow-red-900 {
+	--tw-filter-color: #742a2a;
+}
+
+.drop-shadow-orange-100 {
+	--tw-filter-color: #fffaf0;
+}
+
+.drop-shadow-orange-200 {
+	--tw-filter-color: #feebc8;
+}
+
+.drop-shadow-orange-300 {
+	--tw-filter-color: #fbd38d;
+}
+
+.drop-shadow-orange-400 {
+	--tw-filter-color: #f6ad55;
+}
+
+.drop-shadow-orange-500 {
+	--tw-filter-color: #ed8936;
+}
+
+.drop-shadow-orange-600 {
+	--tw-filter-color: #dd6b20;
+}
+
+.drop-shadow-orange-700 {
+	--tw-filter-color: #c05621;
+}
+
+.drop-shadow-orange-800 {
+	--tw-filter-color: #9c4221;
+}
+
+.drop-shadow-orange-900 {
+	--tw-filter-color: #7b341e;
+}
+
+.drop-shadow-yellow-100 {
+	--tw-filter-color: #fffff0;
+}
+
+.drop-shadow-yellow-200 {
+	--tw-filter-color: #fefcbf;
+}
+
+.drop-shadow-yellow-300 {
+	--tw-filter-color: #faf089;
+}
+
+.drop-shadow-yellow-400 {
+	--tw-filter-color: #f6e05e;
+}
+
+.drop-shadow-yellow-500 {
+	--tw-filter-color: #ecc94b;
+}
+
+.drop-shadow-yellow-600 {
+	--tw-filter-color: #d69e2e;
+}
+
+.drop-shadow-yellow-700 {
+	--tw-filter-color: #b7791f;
+}
+
+.drop-shadow-yellow-800 {
+	--tw-filter-color: #975a16;
+}
+
+.drop-shadow-yellow-900 {
+	--tw-filter-color: #744210;
+}
+
+.drop-shadow-green-100 {
+	--tw-filter-color: #f0fff4;
+}
+
+.drop-shadow-green-200 {
+	--tw-filter-color: #c6f6d5;
+}
+
+.drop-shadow-green-300 {
+	--tw-filter-color: #9ae6b4;
+}
+
+.drop-shadow-green-400 {
+	--tw-filter-color: #68d391;
+}
+
+.drop-shadow-green-500 {
+	--tw-filter-color: #48bb78;
+}
+
+.drop-shadow-green-600 {
+	--tw-filter-color: #38a169;
+}
+
+.drop-shadow-green-700 {
+	--tw-filter-color: #2f855a;
+}
+
+.drop-shadow-green-800 {
+	--tw-filter-color: #276749;
+}
+
+.drop-shadow-green-900 {
+	--tw-filter-color: #22543d;
+}
+
+.drop-shadow-teal-100 {
+	--tw-filter-color: #e6fffa;
+}
+
+.drop-shadow-teal-200 {
+	--tw-filter-color: #b2f5ea;
+}
+
+.drop-shadow-teal-300 {
+	--tw-filter-color: #81e6d9;
+}
+
+.drop-shadow-teal-400 {
+	--tw-filter-color: #4fd1c5;
+}
+
+.drop-shadow-teal-500 {
+	--tw-filter-color: #38b2ac;
+}
+
+.drop-shadow-teal-600 {
+	--tw-filter-color: #319795;
+}
+
+.drop-shadow-teal-700 {
+	--tw-filter-color: #2c7a7b;
+}
+
+.drop-shadow-teal-800 {
+	--tw-filter-color: #285e61;
+}
+
+.drop-shadow-teal-900 {
+	--tw-filter-color: #234e52;
+}
+
+.drop-shadow-blue-100 {
+	--tw-filter-color: #ebf8ff;
+}
+
+.drop-shadow-blue-200 {
+	--tw-filter-color: #bee3f8;
+}
+
+.drop-shadow-blue-300 {
+	--tw-filter-color: #90cdf4;
+}
+
+.drop-shadow-blue-400 {
+	--tw-filter-color: #63b3ed;
+}
+
+.drop-shadow-blue-500 {
+	--tw-filter-color: #4299e1;
+}
+
+.drop-shadow-blue-600 {
+	--tw-filter-color: #3182ce;
+}
+
+.drop-shadow-blue-700 {
+	--tw-filter-color: #2b6cb0;
+}
+
+.drop-shadow-blue-800 {
+	--tw-filter-color: #2c5282;
+}
+
+.drop-shadow-blue-900 {
+	--tw-filter-color: #2a4365;
+}
+
+.drop-shadow-indigo-100 {
+	--tw-filter-color: #ebf4ff;
+}
+
+.drop-shadow-indigo-200 {
+	--tw-filter-color: #c3dafe;
+}
+
+.drop-shadow-indigo-300 {
+	--tw-filter-color: #a3bffa;
+}
+
+.drop-shadow-indigo-400 {
+	--tw-filter-color: #7f9cf5;
+}
+
+.drop-shadow-indigo-500 {
+	--tw-filter-color: #667eea;
+}
+
+.drop-shadow-indigo-600 {
+	--tw-filter-color: #5a67d8;
+}
+
+.drop-shadow-indigo-700 {
+	--tw-filter-color: #4c51bf;
+}
+
+.drop-shadow-indigo-800 {
+	--tw-filter-color: #434190;
+}
+
+.drop-shadow-indigo-900 {
+	--tw-filter-color: #3c366b;
+}
+
+.drop-shadow-purple-100 {
+	--tw-filter-color: #faf5ff;
+}
+
+.drop-shadow-purple-200 {
+	--tw-filter-color: #e9d8fd;
+}
+
+.drop-shadow-purple-300 {
+	--tw-filter-color: #d6bcfa;
+}
+
+.drop-shadow-purple-400 {
+	--tw-filter-color: #b794f4;
+}
+
+.drop-shadow-purple-500 {
+	--tw-filter-color: #9f7aea;
+}
+
+.drop-shadow-purple-600 {
+	--tw-filter-color: #805ad5;
+}
+
+.drop-shadow-purple-700 {
+	--tw-filter-color: #6b46c1;
+}
+
+.drop-shadow-purple-800 {
+	--tw-filter-color: #553c9a;
+}
+
+.drop-shadow-purple-900 {
+	--tw-filter-color: #44337a;
+}
+
+.drop-shadow-pink-100 {
+	--tw-filter-color: #fff5f7;
+}
+
+.drop-shadow-pink-200 {
+	--tw-filter-color: #fed7e2;
+}
+
+.drop-shadow-pink-300 {
+	--tw-filter-color: #fbb6ce;
+}
+
+.drop-shadow-pink-400 {
+	--tw-filter-color: #f687b3;
+}
+
+.drop-shadow-pink-500 {
+	--tw-filter-color: #ed64a6;
+}
+
+.drop-shadow-pink-600 {
+	--tw-filter-color: #d53f8c;
+}
+
+.drop-shadow-pink-700 {
+	--tw-filter-color: #b83280;
+}
+
+.drop-shadow-pink-800 {
+	--tw-filter-color: #97266d;
+}
+
+.drop-shadow-pink-900 {
+	--tw-filter-color: #702459;
+}
+
+.blur-0 {
+	filter: blur(none);
+}
+
+.blur-1 {
+	filter: blur(1px);
+}
+
+.blur-2 {
+	filter: blur(2px);
+}
+
+.blur-3 {
+	filter: blur(3px);
+}
+
+.blur-4 {
+	filter: blur(4px);
+}
+
+.blur-5 {
+	filter: blur(5px);
+}
+
+.backdrop-blur-0 {
+	backdrop-filter: blur(none);
+}
+
+.backdrop-blur-1 {
+	backdrop-filter: blur(1px);
+}
+
+.backdrop-blur-2 {
+	backdrop-filter: blur(2px);
+}
+
+.backdrop-blur-3 {
+	backdrop-filter: blur(3px);
+}
+
+.backdrop-blur-4 {
+	backdrop-filter: blur(4px);
+}
+
+.backdrop-blur-5 {
+	backdrop-filter: blur(5px);
+}
+
