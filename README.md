@@ -12,7 +12,7 @@ This plugins adds some filter utilities to your configuration. Based on the defa
 - blur
     - Sizes from 1 - 5
 
-The drop shadow utility uses CSS custom properties to make it easier to define your favorite style.
+The drop shadow utility uses CSS custom properties to make it easier to define your favorite style. **You can find a list of all generated utilities in the [list of all utilities](https://github.com/markusantonwolf/tailwindcss-filters/blob/master/public/utilities.css).**
 
 ## Install
 
@@ -72,8 +72,6 @@ module.exports = {
     ]
 }
 ```
-
-**You can find a list of all generated utilities in the [List of all utilities](https://github.com/markusantonwolf/tailwindcss-filters/blob/master/public/utilities.css).**
 
 ## Licence
 
