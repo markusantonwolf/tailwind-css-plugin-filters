@@ -8,6 +8,9 @@
         "build": "node ./scripts/build.js"
     },
     "author": "Markus A. Wolf",
+    "contributors": [
+        "Markus A. Wolf <wolf.markus.anton@gmail.com>"
+    ],
     "repository": {
         "type": "git",
         "url": "git+https://github.com/markusantonwolf/tailwindcss-filters.git"
@@ -18,5 +21,8 @@
         "clean-css": "^4.2.1",
         "lodash": "^4.17.20",
         "tailwindcss": "^1.8.3"
+    },
+    "peerDependencies": {
+        "tailwindcss": "^1.8.3 || ^2.0.0"
     }
 }
