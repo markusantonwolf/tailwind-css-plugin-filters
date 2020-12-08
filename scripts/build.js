@@ -11,6 +11,7 @@ function buildDistFile() {
                     require("../src/index.js")({
                         variants: ["responsive"],
                         utilities: ["drop-shadow", "blur", "backdrop-blur"],
+                        debug: true,
                     }),
                 ],
             }),
