@@ -450,3 +450,27 @@
 	backdrop-filter: blur(5px);
 }
 
+.bg-blur-0 {
+	backdrop-filter: blur(none);
+}
+
+.bg-blur-1 {
+	backdrop-filter: blur(1px);
+}
+
+.bg-blur-2 {
+	backdrop-filter: blur(2px);
+}
+
+.bg-blur-3 {
+	backdrop-filter: blur(3px);
+}
+
+.bg-blur-4 {
+	backdrop-filter: blur(4px);
+}
+
+.bg-blur-5 {
+	backdrop-filter: blur(5px);
+}
+

@@ -10,7 +10,7 @@ function buildDistFile() {
                 plugins: [
                     require("../src/index.js")({
                         variants: ["responsive"],
-                        utilities: ["drop-shadow", "blur", "backdrop-blur"],
+                        utilities: ["drop-shadow", "blur", "backdrop-blur", "bg-blur"],
                         debug: true,
                         export: true,
                     }),

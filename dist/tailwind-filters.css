@@ -22096,6 +22096,36 @@ video {
           backdrop-filter: blur(5px);
 }
 
+.bg-blur-0 {
+  -webkit-backdrop-filter: blur(none);
+          backdrop-filter: blur(none);
+}
+
+.bg-blur-1 {
+  -webkit-backdrop-filter: blur(1px);
+          backdrop-filter: blur(1px);
+}
+
+.bg-blur-2 {
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+}
+
+.bg-blur-3 {
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+}
+
+.bg-blur-4 {
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+}
+
+.bg-blur-5 {
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -43537,6 +43567,36 @@ video {
   }
 
   .sm\:backdrop-blur-5 {
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+  }
+
+  .sm\:bg-blur-0 {
+    -webkit-backdrop-filter: blur(none);
+            backdrop-filter: blur(none);
+  }
+
+  .sm\:bg-blur-1 {
+    -webkit-backdrop-filter: blur(1px);
+            backdrop-filter: blur(1px);
+  }
+
+  .sm\:bg-blur-2 {
+    -webkit-backdrop-filter: blur(2px);
+            backdrop-filter: blur(2px);
+  }
+
+  .sm\:bg-blur-3 {
+    -webkit-backdrop-filter: blur(3px);
+            backdrop-filter: blur(3px);
+  }
+
+  .sm\:bg-blur-4 {
+    -webkit-backdrop-filter: blur(4px);
+            backdrop-filter: blur(4px);
+  }
+
+  .sm\:bg-blur-5 {
     -webkit-backdrop-filter: blur(5px);
             backdrop-filter: blur(5px);
   }
@@ -64986,6 +65046,36 @@ video {
     -webkit-backdrop-filter: blur(5px);
             backdrop-filter: blur(5px);
   }
+
+  .md\:bg-blur-0 {
+    -webkit-backdrop-filter: blur(none);
+            backdrop-filter: blur(none);
+  }
+
+  .md\:bg-blur-1 {
+    -webkit-backdrop-filter: blur(1px);
+            backdrop-filter: blur(1px);
+  }
+
+  .md\:bg-blur-2 {
+    -webkit-backdrop-filter: blur(2px);
+            backdrop-filter: blur(2px);
+  }
+
+  .md\:bg-blur-3 {
+    -webkit-backdrop-filter: blur(3px);
+            backdrop-filter: blur(3px);
+  }
+
+  .md\:bg-blur-4 {
+    -webkit-backdrop-filter: blur(4px);
+            backdrop-filter: blur(4px);
+  }
+
+  .md\:bg-blur-5 {
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+  }
 }
 
 @media (min-width: 1024px) {
@@ -86432,6 +86522,36 @@ video {
     -webkit-backdrop-filter: blur(5px);
             backdrop-filter: blur(5px);
   }
+
+  .lg\:bg-blur-0 {
+    -webkit-backdrop-filter: blur(none);
+            backdrop-filter: blur(none);
+  }
+
+  .lg\:bg-blur-1 {
+    -webkit-backdrop-filter: blur(1px);
+            backdrop-filter: blur(1px);
+  }
+
+  .lg\:bg-blur-2 {
+    -webkit-backdrop-filter: blur(2px);
+            backdrop-filter: blur(2px);
+  }
+
+  .lg\:bg-blur-3 {
+    -webkit-backdrop-filter: blur(3px);
+            backdrop-filter: blur(3px);
+  }
+
+  .lg\:bg-blur-4 {
+    -webkit-backdrop-filter: blur(4px);
+            backdrop-filter: blur(4px);
+  }
+
+  .lg\:bg-blur-5 {
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+  }
 }
 
 @media (min-width: 1280px) {
@@ -107875,6 +107995,36 @@ video {
   }
 
   .xl\:backdrop-blur-5 {
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+  }
+
+  .xl\:bg-blur-0 {
+    -webkit-backdrop-filter: blur(none);
+            backdrop-filter: blur(none);
+  }
+
+  .xl\:bg-blur-1 {
+    -webkit-backdrop-filter: blur(1px);
+            backdrop-filter: blur(1px);
+  }
+
+  .xl\:bg-blur-2 {
+    -webkit-backdrop-filter: blur(2px);
+            backdrop-filter: blur(2px);
+  }
+
+  .xl\:bg-blur-3 {
+    -webkit-backdrop-filter: blur(3px);
+            backdrop-filter: blur(3px);
+  }
+
+  .xl\:bg-blur-4 {
+    -webkit-backdrop-filter: blur(4px);
+            backdrop-filter: blur(4px);
+  }
+
+  .xl\:bg-blur-5 {
     -webkit-backdrop-filter: blur(5px);
             backdrop-filter: blur(5px);
   }

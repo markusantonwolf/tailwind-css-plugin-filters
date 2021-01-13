@@ -56,7 +56,7 @@ const sizes = [
 
 const defaultOptions = {
     variants: ["responsive"],
-    utilities: ["drop-shadow", "blur", "backdrop-blur"],
+    utilities: ["drop-shadow", "blur", "backdrop-blur", "bg-blur"],
     debug: false,
     export: false,
 };
@@ -78,6 +78,9 @@ module.exports = plugin.withOptions((options = {}) => {
         }
         if (options.utilities.indexOf("backdrop-blur") !== -1) {
             _.merge(new_utilities, getBackdropBlur());
+        }
+        if (options.utilities.indexOf("bg-blur") !== -1) {
+            _.merge(new_utilities, getBgBlur());
         }
 
         if (options.debug === true) {
@@ -133,6 +136,16 @@ function getBackdropBlur() {
     const new_utilities = {};
     blurs.forEach((blur) => {
         new_utilities[".backdrop-blur-" + blur.name] = {
+            backdropFilter: "blur(" + blur.value + ")",
+        };
+    });
+    return new_utilities;
+}
+
+function getBgBlur() {
+    const new_utilities = {};
+    blurs.forEach((blur) => {
+        new_utilities[".bg-blur-" + blur.name] = {
             backdropFilter: "blur(" + blur.value + ")",
         };
     });
