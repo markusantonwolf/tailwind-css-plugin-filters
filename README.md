@@ -44,7 +44,7 @@ The drop shadow utility uses CSS custom properties to make it easier to define y
 
 ```html
 <div class="drop-shadow drop-shadow-xl drop-shadow-gray-100"></div>
-<div class="backdrop-blur-5"></div>
+<div class="bg-blur-5"></div>
 <div class="blur-5"></div>
 ```
 
@@ -68,7 +68,7 @@ module.exports = {
     plugins: [
         require("@markusantonwolf/tailwindcss-filters")({
             variants: ["responsive"],
-            utilities: ["drop-shadow", "blur", "backdrop-blur"],
+            utilities: ["drop-shadow", "blur", "backdrop-blur", "bg-blur"],
             debug: false,
         }),
     ]
