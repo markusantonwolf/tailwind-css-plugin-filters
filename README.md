@@ -9,6 +9,8 @@ This plugins adds some filter utilities to your configuration. Based on the defa
         - Tailwind CSS default colors
 - backdrop-blur
     - Sizes from 1 - 5
+- bg-blur
+    - Sizes from 1 - 5
 - blur
     - Sizes from 1 - 5
 
