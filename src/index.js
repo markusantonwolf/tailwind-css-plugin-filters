@@ -108,24 +108,24 @@ function getDropShadow() {
     const new_utilities = {};
     new_utilities[".drop-shadow"] = {
         filter:
-            "drop-shadow(var(--tw-filter-size, 0px 0px 2px) var(--tw-filter-color, #000000))",
+            "drop-shadow(var(--ta-filter-size, 0px 0px 2px) var(--ta-filter-color, #000000))",
     };
 
     sizes.forEach((size) => {
         new_utilities[".drop-shadow-" + size.name] = {
-            "--tw-filter-size": size.value,
+            "--ta-filter-size": size.value,
         };
     });
     for (const property in colors) {
         if (typeof colors[property] !== "object") {
             new_utilities[".drop-shadow-" + property] = {
-                "--tw-filter-color": colors[property],
+                "--ta-filter-color": colors[property],
             };
             continue;
         }
         for (const item in colors[property]) {
             new_utilities[".drop-shadow-" + property + "-" + item] = {
-                "--tw-filter-color": colors[property][item],
+                "--ta-filter-color": colors[property][item],
             };
         }
     }
