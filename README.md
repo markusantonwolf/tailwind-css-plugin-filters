@@ -14,7 +14,7 @@ This plugins adds some filter utilities to your configuration. Based on the defa
 - blur
     - Sizes from 1 - 5
 
-The drop shadow utility uses CSS custom properties to make it easier to define your favorite style. **You can find a list of all generated utilities in the [list of all utilities](https://github.com/markusantonwolf/tailwindcss-filters/blob/master/public/utilities.css).**
+The drop shadow utility uses CSS custom properties to make it easier to define your favorite style. **You can find a list of all generated utilities in the [list of all utilities](https://github.com/markusantonwolf/tailwind-css-plugin-filters/blob/master/public/utilities.css).**
 
 ## Install
 
@@ -22,10 +22,10 @@ The drop shadow utility uses CSS custom properties to make it easier to define y
 
   ```bash
   # Using npm
-  npm install @markusantonwolf/tailwindcss-filters --save-dev
+  npm install @markusantonwolf/tailwind-css-plugin-filters --save-dev
 
   # Using Yarn
-  yarn add @markusantonwolf/tailwindcss-filters -D
+  yarn add @markusantonwolf/tailwind-css-plugin-filters -D
   ```
 
 2. Add it to your `tailwind.config.js` file:
@@ -35,7 +35,7 @@ The drop shadow utility uses CSS custom properties to make it easier to define y
   module.exports = {
     // ...
     plugins: [
-      require('@markusantonwolf/tailwindcss-filters')
+      require('@markusantonwolf/tailwind-css-plugin-filters')
     ]
   }
   ```
@@ -66,7 +66,7 @@ The drop shadow utility uses CSS custom properties to make it easier to define y
 module.exports = {
 // ...
     plugins: [
-        require("@markusantonwolf/tailwindcss-filters")({
+        require("@markusantonwolf/tailwind-css-plugin-filters")({
             variants: ["responsive"],
             utilities: ["drop-shadow", "blur", "backdrop-blur", "bg-blur"],
             debug: false,
@@ -77,7 +77,7 @@ module.exports = {
 
 ## Licence
 
-Tailwind CSS Plugin Filter utilities is released under the [MIT license](https://github.com/markusantonwolf/tailwindcss-filters/blob/master/licence.md) & supports modern environments.
+Tailwind CSS Plugin Filter utilities is released under the [MIT license](https://github.com/markusantonwolf/tailwind-css-plugin-filters/blob/master/licence.md) & supports modern environments.
 
 ## Copyright
 
