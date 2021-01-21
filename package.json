@@ -4,20 +4,26 @@
     "description": "A Tailwind CSS plugin for usefull css filter utilities.",
     "main": "src/index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
+        "test": "NODE_ENV=test node ./src/index.js",
+        "prebuild": "node ./src/export.js",
         "build": "node ./scripts/build.js",
-        "publish": "npm publish --access public",
+        "upload": "npm publish --access public",
         "patch": "npm version patch",
         "minor": "npm version minor",
         "major": "npm version major"
     },
-    "author": "Markus A. Wolf",
-    "contributors": [
-        "Markus A. Wolf <wolf.markus.anton@gmail.com>"
-    ],
+    "author": {
+        "name": "Markus A. Wolf",
+        "email": "hello@markusantonwolf.com",
+        "url": "https://www.markusantonwolf.com/en/"
+    },
+    "homepage": "https://github.com/markusantonwolf/tailwind-css-plugin-filters#readme",
+    "bugs": {
+        "url": "https://github.com/markusantonwolf/tailwind-css-plugin-filters/issues"
+    },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/markusantonwolf/tailwindcss-filters.git"
+        "url": "git+https://github.com/markusantonwolf/tailwind-css-plugin-filters.git"
     },
     "license": "MIT",
     "dependencies": {
